@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title>Home</title>
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript" src="scriptini.js"></script>
+	</head>
+	<body onload="startTime()">
+		
+		<!-- current date&time -->
+		<div class="header">
+			<p class="center" id="clock"></p>
+			<p class="center" id="date">15/10/2019</p>
+		</div>
+		<!-- links -->
+		<section class="container">
+			<!-- search pages -->
+			<!-- <div class="tree container-flex left">
+				<p>Search...</p>
+				<ul>
+					<li id="first"><a href="https://www.duckduckgo.com">DuckDuckGo</a></li>
+					<li>
+						Wikis
+						<ul>
+							<li><a href="https://it.wikipedia.org">Wikipedia (it)</a></li>
+							<li><a href="https://en.wikipedia.org">Wikipedia (en)</a></li>
+							<li><a href="https://wiki.archlinux.org">ArchWiki</a></li>
+							<li id="last"><a href="https://wiki.debian.org">Debian Wiki</a></li>
+						</ul>
+					</li>
+					<li id="last"><a href="https://www.stackoverflow.com">StackOverflow</a></li>
+				</ul>
+			</div> -->
+			<!-- quick links -->
+			<div class="tree container-flex right">
+				<p>Quick links</p>
+				<ul>
+					<li id="first"><a href="https://www.duckduckgo.com">DuckDuckGo</a></li>
+					<li>
+						UniFe
+						<ul>
+							<li><a href="http://unife.it/scienze/informatica">Informatica - Home</a></li>
+							<li><a href="http://www.unife.it/scienze/informatica/studiare/programmi-insegnamenti-docenti/piano-degli-studi-270-ord-2016-aa2019-20">Informatica - Corsi</a></li>
+							<li><a href="http://www.unife.it/ing/informazione/">Ingegneria Informatica - Home</a></li>
+							<li id="last"><a href="http://www.unife.it/ing/informazione/piano-degli-studi-lt">Ingegneria Informatica - Corsi</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="https://www.reddit.com">Reddit</a>
+						<ul>
+							<li><a href="https://www.reddit.com/r/unixporn">r/UnixPorn</a></li>
+							<li><a href="https://www.reddit.com/r/italy">r/Italy</a></li>
+							<li id="last"><a href="https://www.reddit.com/r/italyinformatica">r/ItalyInformatica</a></li>
+						</ul>
+					</li>
+					<li><a href="https://www.youtube.com">YouTube</a></li>
+					<li id="last"><a href="https://www.amazon.it">Amazon.it</a></li>
+				</ul>
+			</div>
+		</section>
+		<!-- search bar -->
+		<section class="container">
+			<div>
+				<form action="javascript:search()" id="search">
+					<input type="search" id="ricercatore" autofocus>
+					<input type="submit" id="eliminami">
+				</form>
+			</div>
+		</section>
+
+	</body>
+</html>

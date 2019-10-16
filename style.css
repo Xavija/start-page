@@ -1,0 +1,96 @@
+body {
+	font-family: 'Verdana';
+	background-color: #272a30;
+	height: 100%;
+	color: #fcfcfc;
+}
+
+ul li {
+	list-style-type: symbols(cyclic '├');
+	/*margin-left: 70px;*/
+/* 	margin-left: -20px; */
+	color: #98c379;
+}
+
+li#first {
+	list-style-type: symbols(cyclic '┌');/* '┬'); */
+}
+
+li#last {
+	list-style-type: symbols(cyclic '└');
+}
+
+a:link {
+	color: #e06c75;
+}
+
+a:visited {
+	color: #56b6c2;
+}
+
+section.container {
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	display: table;
+}
+
+div.container-flex {
+	/* float:left; */
+	display: table-cell;
+	margin: auto;
+}
+
+div.left {
+	padding-left: 5px;
+	padding-right: 20px;
+}
+
+div.right {
+	padding-left: 20px;
+	padding-right: 5px;
+}
+
+.header {
+	align-content: center;
+	margin: 30px;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align: left;
+}
+
+.tree {
+	font-family: 'Hack';
+	font-size: 23px;
+}
+
+#clock {
+	padding-top: 15px;
+	font-size: 50px;
+	margin-bottom: 5px;
+}
+
+#date {
+	margin: 0px;
+	font-size: 18px;
+}
+
+#eliminami {
+	width: 0px;
+	height: 0px;
+	font-size: 0px;
+	border: #000000ff solid 0px;
+}
+
+#piedatore {
+	position:absolute;
+	/* height: 30px;
+	width: 100%; */
+	bottom: 0;		
+}
