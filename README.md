@@ -6,6 +6,7 @@ I hate CSS
 ## Features
 
 - [x] keyboard-oriented
+- [x] date + time
 - [x] quick links
 - [ ] good look
 - [ ] fantasy
