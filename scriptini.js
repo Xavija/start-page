@@ -9,7 +9,7 @@ function startTime() {
 	
 	// date:
 	var date	= now.getDate();  						// 15
-	var month	= addPaddingZero(now.getMonth()); 		// (0)9
+	var month	= addPaddingZero(now.getMonth()+1);		// (0)9
 	var year 	= now.getFullYear();					// 2019
 
 	var today = date + "/" + month + "/" + year;		// 15/09/2019
