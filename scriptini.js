@@ -50,6 +50,9 @@ function search() {
 		case ':so':	// stackoverflow
 			provider = 'https://www.stackoverflow.com/search?q=';
 			break;
+		case ':gh':	// github
+			provider = 'https://www.github.com/search?q=';
+			break;
 		default:	// default provider: duckduckgo
 			provider = 'https://www.duckduckgo.com/?q=';
 			break;

@@ -12,11 +12,11 @@ ul li {
 	color: #98c379;
 }
 
-li#first {
+li.first {
 	list-style-type: symbols(cyclic '┌');/* '┬'); */
 }
 
-li#last {
+li.last {
 	list-style-type: symbols(cyclic '└');
 }
 
