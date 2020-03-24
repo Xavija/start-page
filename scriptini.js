@@ -53,6 +53,9 @@ function search() {
 		case ':gh':	// github
 			provider = 'https://www.github.com/search?q=';
 			break;
+		case ':yt': // youtube
+			provider = 'https://www.youtube.com/results?search_query=';
+			break;
 		default:	// default provider: duckduckgo
 			provider = 'https://www.duckduckgo.com/?q=';
 			break;
